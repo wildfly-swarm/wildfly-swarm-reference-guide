@@ -1,6 +1,6 @@
 
 var fs = require('fs');
-var plugin = require('gitbook-plugin-configurable-docs');
+var plugin = require('gitbook-plugin-reference-guide');
 
 plugin.setVersion("2017.2.0-SNAPSHOT")
 
@@ -11,14 +11,18 @@ const generateStub = (groupId, artifactId)=>{
 };
 
 const generateSummary = (data)=>{
+  var before = fs.readFileSync('SUMMARY_BEFORE.adoc');
+  var after = fs.readFileSync('SUMMARY_AFTER.adoc');
+
   var fd = fs.openSync('SUMMARY.adoc','w');
+  fs.writeSync( fd, before.toString() );
   data.sort( (l,r)=>{
     return l.name.localeCompare(r.name);
   });
   data.forEach( (each)=>{
     fs.writeSync( fd, ". link:fractions/" + each.artifactId + ".adoc[" + each.name + "]\n");
   });
-
+  fs.writeSync( fd, after.toString() );
   fs.close(fd);
 }
 
