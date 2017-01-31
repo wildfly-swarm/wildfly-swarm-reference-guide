@@ -152,6 +152,7 @@ Then the relevant YAML files would be loaded in the following order:
 . `/home/app/openshift.yml`
 . `project-cloud.yml`
 . `project-testing.yml`
+. `project-defaults.yml`
 
 The same preference would be applied even if the application was invoked
 using:
