@@ -149,7 +149,7 @@ $ java -jar myapp-swarm -s/home/app/openshift.yml -Scloud -Stesting
 
 Then the relevant YAML files would be loaded in the following order:
 
-. `/home/app/openshift.yml'
+. `/home/app/openshift.yml`
 . `project-cloud.yml`
 . `project-testing.yml`
 
