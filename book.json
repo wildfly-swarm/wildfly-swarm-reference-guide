@@ -1,0 +1,12 @@
+
+{
+  "plugins": [
+    "reference-guide@git+https://github.com/wildfly-swarm/gitbook-plugin-reference-guide.git"
+  ],
+
+  "variables": {
+      "versions": {
+          "swarm": "2017.2.0-SNAPSHOT"
+      }
+  }
+}

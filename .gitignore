@@ -1,0 +1,8 @@
+node_modules
+_*
+*.swp
+.idea
+*.iml
+target
+_book
+etc
