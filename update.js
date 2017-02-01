@@ -2,11 +2,11 @@
 var fs = require('fs');
 var plugin = require('gitbook-plugin-reference-guide');
 
-plugin.setVersion("2017.2.0-SNAPSHOT")
+plugin.setVersion({{book.versions.swarm}})
 
 const generateStub = (groupId, artifactId)=>{
   var path = "./fractions/" + artifactId + ".adoc";
-  fs.writeFileSync( path, 
+  fs.writeFileSync( path,
                     "---\n" + "groupId: " + groupId + "\nartifactId: " + artifactId + "\n---\n");
 };
 
@@ -37,4 +37,3 @@ plugin.locateArtifact('org.wildfly.swarm', 'fraction-list', 'json')
   .catch( (err)=>{
     console.log( "problem", err );
   });
-
