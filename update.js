@@ -2,7 +2,7 @@
 var fs = require('fs');
 var plugin = require('gitbook-plugin-reference-guide');
 
-plugin.setVersion("2017.3.0-SNAPSHOT")
+plugin.setVersion("2017.3.2")
 
 const generateStub = (groupId, artifactId)=>{
   var path = "./fractions/" + artifactId + ".adoc";
