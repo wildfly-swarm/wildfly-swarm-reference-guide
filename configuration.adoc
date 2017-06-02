@@ -114,7 +114,7 @@ Additionally, if specific configurations are selected, using the `-S <name>`
 commandline option, those associated files will be loaded, in order, prior to the
 `project-defaults.yml` file. The names provided to the `-S <name>` argument
 relates to a file named `project-<name>.yml` within your classpath.
-
+ 
 If you were to invoke your application with the following:
 
 [source,shell]
