@@ -2,7 +2,7 @@
 var fs = require('fs');
 var plugin = require('gitbook-plugin-reference-guide');
 
-plugin.setVersion("2017.7.0-SNAPSHOT")
+plugin.setVersion("2017.9.0-SNAPSHOT")
 
 const generateStub = (groupId, artifactId)=>{
   var path = "./fractions/" + artifactId + ".adoc";
@@ -26,7 +26,7 @@ const generateSummary = (data)=>{
   fs.close(fd);
 }
 
-plugin.locateArtifact('org.wildfly.swarm', 'fraction-list', 'json')
+plugin.locateArtifact('org.wildfly.swarm', 'fraction-metadata', 'json')
   .then( (path)=>{
     var data = JSON.parse( fs.readFileSync( path ) );
     data.forEach( (each)=>{

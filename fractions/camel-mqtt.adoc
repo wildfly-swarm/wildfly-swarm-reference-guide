@@ -1,0 +1,4 @@
+---
+groupId: org.wildfly.swarm
+artifactId: camel-mqtt
+---

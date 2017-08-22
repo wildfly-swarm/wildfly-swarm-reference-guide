@@ -1,4 +1,4 @@
 ---
 groupId: org.wildfly.swarm
-artifactId: camel-other
+artifactId: camel-servlet
 ---
