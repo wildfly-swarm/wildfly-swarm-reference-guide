@@ -1,4 +1,5 @@
 . link:configuration.adoc[Configuration]
+. link:network.adoc[Network]
 . link:fractions/archaius.adoc[Archaius]
 . link:fractions/asciidoctorj.adoc[AsciidoctorJ]
 . link:fractions/batch-jberet.adoc[Batch]
@@ -137,7 +138,6 @@
 . link:fractions/ee.adoc[EE]
 . link:fractions/ejb.adoc[EJB]
 . link:fractions/ejb-remote.adoc[EJB Remote]
-. link:fractions/elytron.adoc[Elytron]
 . link:fractions/fluentd.adoc[Fluentd]
 . link:fractions/flyway.adoc[Flyway]
 . link:fractions/netflix-guava.adoc[Guava]

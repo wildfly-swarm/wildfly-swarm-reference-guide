@@ -1,1 +1,2 @@
 . link:configuration.adoc[Configuration]
+. link:network.adoc[Network]
