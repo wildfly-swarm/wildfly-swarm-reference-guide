@@ -1,4 +1,5 @@
 . link:configuration.adoc[Configuration]
+. link:usage.adoc[usage.txt]]
 . link:network.adoc[Network]
 . link:fractions/archaius.adoc[Archaius]
 . link:fractions/asciidoctorj.adoc[AsciidoctorJ]

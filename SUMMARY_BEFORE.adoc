@@ -1,2 +1,3 @@
 . link:configuration.adoc[Configuration]
+. link:usage.adoc[usage.txt]]
 . link:network.adoc[Network]
