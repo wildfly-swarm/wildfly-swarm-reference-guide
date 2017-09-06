@@ -1,4 +1,0 @@
----
-groupId: org.wildfly.swarm
-artifactId: elytron
----
